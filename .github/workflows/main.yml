@@ -2,7 +2,11 @@ name: my hello world
 
 on:
  push:
-  branches: [ "main" ]
+  branches:
+   - main
+
+ workflow_dispatch:
+  
 
 jobs:
  FirstJob:
