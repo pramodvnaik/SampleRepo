@@ -1,0 +1,15 @@
+name: my hello world
+
+on:
+ push:
+  branches: [ "main" ]
+
+jobs:
+ FirstJob:
+  runs-on: ubuntu-latest
+  steps:
+   - uses: actions/checkout@4
+   - run: echo "hello"
+   
+   
+ 
